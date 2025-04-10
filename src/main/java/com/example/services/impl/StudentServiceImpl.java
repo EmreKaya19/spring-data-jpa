@@ -30,11 +30,6 @@ public class StudentServiceImpl implements IStudentService {
 	}
 	
 	
-	
-	
-	
-	
-	
 	@Override
 	public List<DtoStudent> getallStudents() {
 		List<DtoStudent> dtoList=new ArrayList<>();
@@ -66,10 +61,6 @@ return dto;
 	}
 	
 	
-	
-	
-	
-	
 	@Override
 	public void deleteStudent(Integer id) {
 
@@ -79,7 +70,6 @@ return dto;
 			
 		}
 	}
-	
 	
 	
 	
